@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cps Test</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.css" >
+    <link rel="stylesheet" href="animate.css">
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib s/animate.css/3.5.2/animate.min.css"> -->
+
+
+    </head>
+<header>
+    <center>
+    <div style="position: relative; left: 150px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xl-3  swing animated mb-4">
+                    <div class="card shadow border-left-primary py-2 "style="height: 125px; width: 250px;">
+                        <div class="card-body">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col mr-2">
+                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"style="text-align: center; font-size: 25px;"><span>Cps Total</span></div>
+                                    <div class="text-dark font-weight-bold h5 mb-0"style="text-align: center; font-size: 25px;"><span id="cpst">0</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 swing animated mb-4">
+                    <div class="card shadow border-left-primary py-2"style="height: 125px; width: 250px;">
+                        <div class="card-body">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col mr-2">
+                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"style="text-align: center; font-size: 25px;"><span>Timer</span></div>
+                                    <div class="text-dark font-weight-bold h5 mb-0"style="text-align: center; font-size: 25px;"><span id="timer">0.000</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 swing animated mb-4">
+                    <div class="card shadow border-left-primary py-2"style="height: 125px; width: 250px;">
+                        <div class="card-body">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col mr-2">
+                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"style="text-align: center; font-size: 25px;"><span>Cps</span></div>
+                                    <div class="text-dark font-weight-bold h5 mb-0"><span id="cps">0</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </center>
+</header>
+<br>
+<center>
+<div class="col-md-6 col-xl-3 mb-4">
+    <div class="card shadow border-left-primary  swing animated py-2 "style="height: 150px; width: 250px; " >
+        <div class="card-body">
+            <div class="row align-items-center no-gutters " style="border: 50px; ">
+                <div class="col mr-2">
+                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1">Duration
+                    </div><input type="number" placeholder="Duration(Sec)" id="dur" style="font-size: 15px; text-align: center;"class="border" />
+                    <div class="text-dark font-weight-bold h5 mb-0"></div>
+
+                </div><center>
+        <button class="Buttonsd" id="sd" onclick="sd()"style="position: relative; left:37.5px; top: 10px;">Set Duration</button>
+            </center></div>
+        </div>
+    </div>
+</div>
+
+</center>
+    <body><center>
+        <button class=" swing animated dis" id="start"onclick="cps()" disabled="disabled" style="position: relative; top:10px; width: 500px; height: 250px; font-size: 75px;">Start</button>
+    </center></body>
+
+    <script src="index.js"></script>
+    </html>
+<footer><center>
+    <div><div class="Text1 swing animated" style="position: relative; top: 50px;">JS</div>
+    <textarea id="textmirror" style="position: relative; width: 1000px; top: 50px; height: 500px;" class="swing animated" disabled="disabled"></textarea>
+</center>
+</footer>
+<footer><center>
+    <div><div class="Text1 swing animated" style="position: relative; top: 50px;">Html</div>
+    <textarea id="textmirrorhtml" style="position: relative; width: 1000px; top: 50px; height: 500px;" class="swing animated" disabled="disabled">
+    </textarea>
+</center>
+</footer>
+<footer><center>
+    <div><div class="Text1 swing animated" style="position: relative; top: 50px;">CSS</div>
+    <textarea id="textmirrorcss" style="position: relative; width: 1000px; top: 50px; height: 500px;" class="swing animated" disabled="disabled">
+    </textarea>
+</center>
+</footer>
+    <script src="index.js"></script>
+    <script src="code.js"></script>
+
+    <!-- <script src="/js/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script> -->
+    </html>
